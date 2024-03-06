@@ -1,0 +1,185 @@
+#container{
+    width: 80%;
+    margin: 0 auto;
+}
+0,
+
+#header ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+#header ul li{
+    display: inline;
+    padding: 10px;
+}
+
+#header ul{
+    float: right;
+}
+
+#heading1{
+     margin: 15px;
+     float: left;
+     font: Roboto;
+}
+
+
+#banner{
+    background-color: blueviolet;
+    height: 500px;
+    width: 70%;
+    float: left;
+    color: white;
+}
+
+
+
+#banner1{
+    background-color: blueviolet;
+    height: 500px;
+    width: 30%;
+    float: right;
+    color: white;
+}
+
+#image{
+    padding-top: 350px;
+}
+
+.banners{
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+
+#intro{
+    /* background-color: red; */
+    height: 90px;
+    clear: both;
+}
+
+#intro1{
+    height: 300px;
+    width: 70%;
+    float: left;
+}
+
+#intro2{
+    background-color: darkgreen;
+    height: 300px;
+    width: 30%;
+    float: right;
+}
+
+
+/* for smartphones */
+
+@media only screen and (max-width: 767px){
+
+     #container{
+      width: 100%;
+     }
+
+     #header{
+      width: 100%;
+     }
+
+     #heading1{
+      width: 100%;
+     }
+
+     #banner{
+      width: 100%;
+     }
+
+     #banner1{
+      width: 100%;
+     }
+
+     #intro{
+      width: 100%;
+     }
+
+     #intro1{
+      width: 100%;
+     }
+
+     #intro2{
+      width: 100%;
+     }
+}
+
+/* tablet size */
+
+@media only screen and(min-width:768px) and (max-width:1023px){
+      
+  
+  #container{
+    width: 100%;
+   }
+
+   #header{
+    width: 100%;
+   }
+
+   #heading1{
+    width: 100%;
+   }
+
+   #banner{
+    width: 100%;
+   }
+
+   #banner1{
+    width: 100%;
+   }
+
+   #intro{
+    width: 100%;
+   }
+
+   #intro1{
+    width: 100%;
+   }
+
+   #intro2{
+    width: 100%;
+   }
+}
+
+/* laptop size */
+@media only screen and(min-width: 1024px){
+  
+  #container{
+    width: 100%;
+   }
+
+   #header{
+    width: 100%;
+   }
+
+   #heading1{
+    width: 100%;
+   }
+
+   #banner{
+    width: 100%;
+   }
+
+   #banner1{
+    width: 100%;
+   }
+
+   #intro{
+    width: 100%;
+   }
+
+   #intro1{
+    width: 100%;
+   }
+
+   #intro2{
+    width: 100%;
+   }
+}
